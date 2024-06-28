@@ -1,0 +1,61 @@
+#NumberField {
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-padding: 10;
+}
+/* General button styling */
+.button {
+    -fx-font-size: 18px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-border-color: #cccccc;
+    -fx-background-color: #f0f0f0;
+    -fx-border-width: 1px;
+    -fx-text-fill: #333333;
+}
+
+/* Number buttons (0-9) */
+.number-button {
+    -fx-background-color: #e6e6e6;
+}
+
+.number-button:hover {
+    -fx-background-color: #d4d4d4;
+}
+
+.number-button:pressed {
+    -fx-background-color: #c2c2c2;
+}
+
+/* Operator buttons (+, -, *, /) */
+.operator-button {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: white;
+}
+
+.operator-button:hover {
+    -fx-background-color: #e6b800;
+}
+
+.operator-button:pressed {
+    -fx-background-color: #cc9900;
+}
+
+/* All Clear button (AC) */
+.clear-button {
+    -fx-background-color: #ff6666;
+    -fx-text-fill: white;
+}
+
+.clear-button:hover {
+    -fx-background-color: #e65c5c;
+}
+
+.clear-button:pressed {
+    -fx-background-color: #cc5252;
+}
